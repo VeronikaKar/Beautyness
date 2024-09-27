@@ -364,14 +364,14 @@ body {
 }
 
 .mail__input-book {
-  background-image: url(../img/book.png);
+  background-image: url(../image/note-book.png);
   background-position: left top;
   background-repeat: no-repeat;
 }
 
 .mail__input-big {
   height: 150px;
-  background-image: url(../img/big.png);
+  background-image: url(../image/pencil.png);
   background-position: left top;
   background-repeat: no-repeat;
 }
