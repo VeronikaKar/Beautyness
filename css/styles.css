@@ -1,0 +1,817 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&family=Playfair+Display&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  line-height: 31px;
+  color: #555555;
+  overflow-x: hidden;
+}
+
+.header__top {
+}
+
+.headre__logo {
+}
+
+.header__phone {
+}
+
+.tel {
+}
+
+.menu__list {
+}
+
+.menu-burger {
+}
+
+.list__item {
+}
+.list__item:hover {
+}
+
+.social__img {
+}
+
+.header__button {
+}
+.header__button:hover {
+}
+
+.header__btn {
+}
+
+.header__content {
+}
+
+.content__inner {
+}
+
+.content__text {
+}
+
+.content__subtitle {
+}
+
+.content__title {
+}
+
+.content__title._active {
+}
+
+.text {
+}
+
+.content__img {
+}
+.content__img img {
+}
+
+@-webkit-keyframes img-anim {
+  0% {
+    -webkit-transform: translateX(-3000px);
+    transform: translateX(-3000px);
+  }
+  75% {
+    -webkit-transform: translateX(30px);
+    transform: translateX(30px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes img-anim {
+  0% {
+    -webkit-transform: translateX(-3000px);
+    transform: translateX(-3000px);
+  }
+  75% {
+    -webkit-transform: translateX(30px);
+    transform: translateX(30px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+.section__price {
+}
+
+.price__inner {
+}
+
+.price__item {
+}
+
+.price__item.anim.animation-class {
+}
+
+.price__img {
+}
+
+.price__title {
+}
+
+.price__text {
+}
+
+.price__btn {
+}
+.price__btn:hover {
+}
+
+.care {
+}
+
+.care__inner {
+}
+
+.care__text {
+}
+
+.subtitle {
+}
+
+.title {
+}
+
+.text {
+}
+
+.care-img__inner {
+}
+
+.care-img__inner.anim.animation-class {
+}
+
+.care__img {
+}
+
+.care__img.anim.animation-class {
+}
+
+.menu {
+}
+
+.menu__text {
+}
+
+.menu__subtitle {
+}
+
+.menu__title {
+}
+
+.menu__item {
+}
+
+.menu-list {
+}
+
+.list__row {
+}
+
+.list__row h4 {
+}
+.list__row span {
+}
+
+.menu-list p {
+}
+
+.menu__item-img {
+}
+
+.menu__item-img.anim.animation-class {
+}
+
+.menu__btn {
+}
+.menu__btn:hover {
+}
+
+.menu__btn.anim.animation-class {
+}
+
+.reviews {
+}
+
+.reviews__top {
+}
+
+.reviews__subtitle {
+}
+
+.reviews__title {
+}
+
+.reviews__inner {
+}
+
+.reviews__item {
+}
+
+.reviews__item.anim.animation-class {
+}
+
+.reviews__text {
+}
+
+.reviews__author {
+}
+
+.author__inner {
+}
+
+.reviews__img {
+}
+
+.reviews__rating {
+}
+
+.reviews__name {
+}
+
+.reviews__country {
+}
+
+.benefits__inner {
+}
+
+.benefits__item {
+}
+
+.benefits__item.anim.animation-class {
+}
+
+.benefits__title {
+}
+
+.discount {
+}
+
+.discount.anim.animation-class {
+}
+
+.discount__inner {
+}
+
+.discount__item {
+}
+
+.discount__subtitle {
+}
+
+.discount__title {
+}
+
+.discount__text {
+}
+
+.discount__contacts {
+}
+
+.contacts__item {
+}
+.contacts__item p {
+}
+
+.d_mail::before {
+  content: "";
+  background-image: url(../image/points.png);
+  height: 6px;
+  width: 30px;
+  position: absolute;
+  left: 28px;
+  top: 40px;
+}
+
+.d_call::before {
+  content: "";
+  background-image: url(../image/points.png);
+  height: 6px;
+  width: 30px;
+  position: absolute;
+  left: 28px;
+  top: 115px;
+}
+
+.contacts__img {
+}
+
+.discount__form {
+}
+
+.form__inner {
+}
+
+.mail__input-name,
+.mail__input-mail,
+.mail__input-phone,
+.mail__input-book,
+.mail__input-big {
+  display: block;
+  width: 455px;
+  height: 65px;
+  border: 2px solid #5c8692;
+  color: #5c8692;
+  margin-bottom: 20px;
+  background-image: url(../img/name_form.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.mail__input-name:hover,
+.mail__input-mail:hover,
+.mail__input-phone:hover,
+.mail__input-book:hover,
+.mail__input-big:hover {
+  border: 5px solid #5c8692;
+}
+
+.mail__input-mail {
+  background-image: url(../img/mail.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+.mail__input-phone {
+  background-image: url(../img/phone.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+.mail__input-book {
+  background-image: url(../img/book.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+.mail__input-big {
+  height: 150px;
+  background-image: url(../img/big.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+.form-btn {
+}
+
+.blog__inner {
+}
+
+.blog__item {
+}
+
+.blog__item.anim.animation-class {
+}
+
+.blog__data {
+}
+
+.blog__title {
+}
+
+.blog__text {
+}
+
+.blog__btn {
+}
+.blog__btn:hover {
+}
+
+.blog__btn.anim.animation-class {
+}
+
+.footer {
+}
+
+.footer__logo {
+}
+.footer__logo img:hover {
+}
+
+.footer__nav {
+}
+
+.nav__list {
+}
+
+.nav__title {
+}
+
+.list-ul {
+}
+
+.bottom {
+}
+
+@media screen and (max-width: 1401px) {
+  .header__phone {
+  }
+
+  .list__item {
+  }
+}
+@media screen and (max-width: 1281px) {
+  .headre__logo {
+  }
+
+  .list__item {
+  }
+}
+@media screen and (max-width: 1025px) {
+  .header__phone {
+  }
+
+  .headre__logo {
+  }
+
+  .content__text {
+  }
+
+  .content__img img {
+  }
+
+  .price__inner {
+  }
+
+  .price__img img {
+  }
+
+  .price__btn {
+  }
+
+  .price__item {
+  }
+
+  .care-img__inner img {
+  }
+
+  .menu__item {
+  }
+
+  .menu__item-img img {
+  }
+
+  .menu__btn {
+  }
+
+  .benefits__item {
+  }
+
+  .discount__form {
+  }
+
+  .form__inner {
+  }
+
+  .discount__subtitle {
+  }
+
+  .blog__inner {
+  }
+
+  .blog__item {
+  }
+
+  .blog__item img {
+  }
+
+  .blog__title {
+  }
+
+  .blog__btn {
+  }
+
+  .nav__list {
+  }
+}
+@media screen and (max-width: 960px) {
+  .container {
+  }
+
+  .headre__logo {
+  }
+
+  .header__social {
+  }
+
+  .decor {
+  }
+
+  .header__button {
+  }
+
+  .menu__item-img img {
+  }
+
+  .contacts__img {
+  }
+
+  .discount__inner {
+  }
+
+  .discount__item {
+  }
+
+  .nav__list {
+  }
+}
+@media screen and (max-width: 895px) {
+  .headre__logo {
+  }
+
+  .care__img img {
+  }
+}
+@media screen and (max-width: 800px) {
+  .header__button {
+  }
+
+  .menu-burger {
+  }
+
+  .menu-burger:before,
+  .menu-burger:after {
+  }
+
+  .menu-burger:before {
+  }
+
+  .menu-burger:after {
+  }
+
+  .menu-burger span {
+  }
+
+  .menu-burger.active:before {
+  }
+
+  .menu-burger.active:after {
+  }
+
+  .menu-burger.active span {
+  }
+
+  .menu__list {
+  }
+  .menu__list li {
+  }
+
+  .headre__logo {
+  }
+
+  .menu__list.active {
+  }
+
+  .content__text {
+  }
+
+  .title {
+  }
+
+  .section__price {
+  }
+
+  .care {
+  }
+
+  .care__text {
+  }
+
+  .care__img {
+  }
+
+  .menu__item-img img {
+  }
+
+  .reviews__author {
+  }
+
+  .discount__inner {
+  }
+
+  .form__inner {
+  }
+
+  .discount__item {
+  }
+
+  .discount__contacts {
+  }
+
+  .discount__inner {
+  }
+
+  .nav__list {
+  }
+
+  .list-ul {
+  }
+
+  .footer__logo {
+  }
+}
+@media screen and (max-width: 680px) {
+  .content__inner {
+  }
+
+  .content__text {
+  }
+
+  .content__img {
+  }
+
+  .header__content {
+  }
+
+  .content__img img {
+  }
+
+  .text {
+  }
+
+  .section__price {
+  }
+
+  .reviews__inner {
+  }
+
+  .reviews__item {
+  }
+
+  .reviews__subtitle {
+  }
+
+  .reviews__title {
+  }
+
+  .reviews__text {
+  }
+
+  .menu {
+  }
+
+  .form__inner {
+  }
+
+  .discount__text {
+  }
+
+  .discount__title {
+  }
+}
+@media screen and (max-width: 540px) {
+  .content__title {
+  }
+
+  .care__inner {
+  }
+
+  .care__img img {
+  }
+
+  .care__text {
+  }
+
+  .menu {
+  }
+
+  .care {
+  }
+
+  .menu-list {
+  }
+
+  .menu__title {
+  }
+
+  .reviews__title {
+  }
+
+  .benefits__title {
+  }
+
+  .benefits__subtitle {
+  }
+
+  .discount__form {
+  }
+
+  .blog__item img {
+  }
+
+  .blog__title {
+  }
+
+  .blog__text {
+  }
+
+  .footer__logo {
+    display: block;
+  }
+
+  .nav__title {
+  }
+
+  .list-ul {
+  }
+}
+@media screen and (max-width: 414px) {
+  .content__img {
+  }
+
+  .headre__logo {
+  }
+
+  .reviews__decor img {
+  }
+
+  .benefits__inner {
+  }
+
+  .benefits__item {
+  }
+
+  .reviews__subtitle {
+  }
+
+  .mail__input-name,
+  .mail__input-mail,
+  .mail__input-phone,
+  .mail__input-book,
+  .mail__input-big,
+  .form-btn {
+  }
+
+  .discount__item {
+  }
+
+  .discount__title {
+  }
+
+  .footer__logo {
+  }
+
+  .footer__nav {
+  }
+
+  .bottom {
+  }
+
+  .footer__logo img {
+  }
+}
+@media screen and (max-width: 375px) {
+  .mail__input-name,
+  .mail__input-mail,
+  .mail__input-phone,
+  .mail__input-book,
+  .mail__input-big,
+  .form-btn {
+  }
+}
+@media screen and (max-width: 361px) {
+  .menu__btn {
+  }
+
+  .reviews__title {
+  }
+
+  .reviews__title {
+  }
+
+  .reviews__subtitle {
+  }
+
+  .mail__input-name,
+  .mail__input-mail,
+  .mail__input-phone,
+  .mail__input-book,
+  .mail__input-big,
+  .form-btn {
+  }
+}
