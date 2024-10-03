@@ -881,7 +881,7 @@ body {
   }
 }
 @media screen and (max-width: 1281px) {
-  .headre__logo {
+  .header__logo {
     margin: 0 10px;
   }
 
@@ -894,7 +894,7 @@ body {
     display: none;
   }
 
-  .headre__logo {
+  .header__logo {
     margin-left: 10px;
     margin-right: 135px;
   }
@@ -994,7 +994,7 @@ body {
     max-width: 880px;
   }
 
-  .headre__logo {
+  .header__logo {
     margin-right: 135px;
     margin-left: 35px;
   }
@@ -1033,7 +1033,7 @@ body {
   }
 }
 @media screen and (max-width: 895px) {
-  .headre__logo {
+  .header__logo {
     margin-right: 49px;
   }
 
