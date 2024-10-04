@@ -1,0 +1,25 @@
+{
+  "name": "Beautyness",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=/Beautyness/",
+    "preview": "vite preview",
+    "pretty": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json,css,html}\""
+  },
+  "devDependencies": {
+    "glob": "^8.1.0",
+    "prettier": "^3.2.5",
+    "vite": "^4.5.2"
+  },
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "vite-plugin-full-reload": "^1.0.5",
+    "vite-plugin-html-inject": "^1.0.1"
+  }
+}
